@@ -25,7 +25,7 @@ func main() {
 	flag.Parse()
 
 	if *flagVersion {
-		fmt.Printf("deadcheck %s", Version) //nolint:forbidigo
+		fmt.Printf("deadcheck %s", Version)
 		return
 	}
 
